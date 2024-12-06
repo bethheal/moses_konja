@@ -24,18 +24,18 @@ const Contact = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <Phone size={24} />
-              <span className="text-sm md:text-lg">+1 (555) 123-4567</span>
+              <span className="text-sm md:text-lg">+233 207 695 058</span>
             </div>
 
             <div className="flex items-center space-x-2">
               <Mail size={24} />
-              <span className="text-sm md:text-lg">contact@nectrural.com</span>
+              <span className="text-sm md:text-lg"> mkayagroconsult@gmail.com</span>
             </div>
 
             <div className="flex items-center space-x-2">
               <MapPin size={24} />
               <span className="text-sm md:text-lg">
-                123 NectRural Street, City, Country
+              Ashanti Mampong, opposite St. Monica’s College of Education blue gate
               </span>
             </div>
           </div>

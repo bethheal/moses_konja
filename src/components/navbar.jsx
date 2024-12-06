@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import K from "../constants/index";
 import "../App.css";
+import { logo } from "../assets";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -51,14 +52,22 @@ const Navbar = () => {
   };
 
   return (
-    <div className={`w-full ${isScrolled ? "fixed top-0 z-50" : "absolute"} transition-all`}>
+    <div
+      className={`w-full ${
+        isScrolled ? "fixed top-0 z-50" : "absolute"
+      } transition-all`}
+    >
       <nav
         className={`menu flex flex-row items-center justify-between text-white ${
-          isScrolled ? "bg-slate-950 shadow-lg" : "bg-white bg-opacity-10 backdrop-blur-md"
+          isScrolled
+            ? "bg-slate-950 shadow-lg"
+            : "bg-white bg-opacity-10 backdrop-blur-md"
         } p-2 transition-all duration-300`}
       >
         {/* Brand / Logo */}
-        <div className="text-lg font-bold flex-1 md:flex-none">Brand</div>
+        <div className="text-lg font-bold flex-1 md:flex-none">
+          <img src={logo} alt="logo" className="w-20 h-20" />
+        </div>
 
         {/* Navigation Items */}
         <ul
@@ -71,7 +80,9 @@ const Navbar = () => {
               <a
                 href={`#${link.id}`}
                 className={`font-semibold transition-all hover:text-red-950  ${
-                  activeSection === link.id ? "text-red-950 underline" : "text-white"
+                  activeSection === link.id
+                    ? "text-red-950 underline"
+                    : "text-white"
                 }`}
                 onClick={() => handleScrollToSection(link.id)}
               >
