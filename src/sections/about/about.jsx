@@ -60,7 +60,7 @@ const About = () => {
     <div className="w-full sm:w-3/4 md:w-2/3 lg:w-2/3 text-center lg:text-left">
       <h3 className="text-2xl font-bold text-red-950 mb-5 sm:mb-8">CEO & Founder</h3>
       <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-        I’m the CEO and Founder of Mr Kay AGRO Consult, located in Ashanti
+        Moses Konja an Agronomist by profession, CEO and Founder of Mr Kay AGRO Consult, located in Ashanti
         Mampong. The company started by selling hybrid germinated oil palm
         seeds to smallholder oil palm farmers until we realized that the
         farmers' knowledge in nursery establishment was very poor.
