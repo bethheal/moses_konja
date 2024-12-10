@@ -5,14 +5,14 @@ import Testimonials from "./testimonials";
 
 const Services = () => {
   return (
-    <div id="services" className="p-5 mt-[50rem] flex flex-col items-center">
+    <div id="services" className="p-5 mt-20 flex flex-col items-center">
       {/* Heading Section */}
       <div className="text-center">
         <p className="font-montserrat text-lg p-5 text-red-950  md:text-base">
           Services
         </p>
         <h2 className="text-[20px] md:text-[25px] font-playfair">
-          Lorem ipsum
+          What we do
         </h2>
       </div>
 

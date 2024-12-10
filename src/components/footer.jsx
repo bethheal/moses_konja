@@ -3,7 +3,7 @@ import {
   FooterCopyright,
   FooterDivider,
 } from "flowbite-react";
-import { BsFacebook, BsInstagram, BsTwitter } from "react-icons/bs";
+import { BsFacebook, BsInstagram, BsLinkedin, BsTwitter } from "react-icons/bs";
 import React from "react";
 import { logo } from "../assets";
 
@@ -57,22 +57,22 @@ const Footer = () => {
         {/* Social Media Links */}
         <div className=" flex justify-center space-x-6 sm:justify-center">
           <a
-            href="https://www.facebook.com/africabusinessfestival"
+            href="https://web.facebook.com/profile.php?id=61570106694970"
             className="text-gray-500 hover:text-gray-900"
           >
             <BsFacebook size={20} />
           </a>
           <a
-            href="https://www.instagram.com/africabusinessfestival"
+            href="https://www.instagram.com/mrkayagroconsult/profilecard/?igsh=ejVseGVmejN5b3Js"
             className="text-gray-500 hover:text-gray-900"
           >
             <BsInstagram size={20} />
           </a>
           <a
-            href="https://twitter.com/africabusinessfest"
+            href="https://www.linkedin.com/company/105736800/admin/dashboard/"
             className="text-gray-500 hover:text-gray-900"
           >
-            <BsTwitter size={20} />
+            <BsLinkedin size={20} />
           </a>
         </div>
 

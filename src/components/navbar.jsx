@@ -100,14 +100,19 @@ const Navbar = () => {
         >
           ☰
         </button>
-
         {/* Mobile Menu */}
         {isMenuOpen && (
           <ul
-            className="absolute top-10 left-0 w-full bg-white text-[#472710] shadow-md p-4 z-50 gap-4"
+            className="absolute top-10 left-0 w-full bg-white text-[#472710] shadow-md p-4 z-50 flex flex-col items-center gap-4"
             role="navigation"
             aria-label="Mobile navigation"
           >
+            {/* Logo */}
+            <div className="w-full flex justify-center mb-4">
+              <img src={logo} alt="logo" className="w-16 h-16" />
+            </div>
+
+            {/* Navigation Links */}
             {K.NAVLINKS.map((link) => (
               <li key={link.id}>
                 <a
