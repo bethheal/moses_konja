@@ -26,10 +26,12 @@ const Hero = () => {
         </h1>
 
         {/* Call-to-action button */}
+        <a href="#about">
         <button className="relative h-12 w-40 border border-red-950 bg-slate-300 text-red-950 font-medium shadow-lg transition-all duration-500 hover:text-white hover:shadow-red-950 overflow-hidden rounded-md">
           <span className="absolute inset-0 bg-red-950 scale-x-0 origin-left transition-transform duration-500 hover:scale-x-100"></span>
           <span className="relative z-10">LEARN MORE</span>
         </button>
+        </a>
       </div>
     </div>
   );

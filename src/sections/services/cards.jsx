@@ -28,9 +28,9 @@ const K = {
     },
     {
       img: servicesImg5, // Replace with your image path
-      name: "Supply of Agricultural Inputs",
+      name: "Supply of Agricultural Inputs and Equipment",
       description:
-        "We provide a wide range of essential agricultural inputs, including fertilizers, tools, and other commodities to support farmers in their day-to-day operations.",
+      "We provide a wide range of essential Agricultural inputs, tools, equipment and other commodities to support farmers in their day to day operations"
     },
   ],
 };
