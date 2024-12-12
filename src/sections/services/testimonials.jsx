@@ -131,7 +131,7 @@ const Testimonials = () => {
                     </p>
                     <p className="mt-2 text-gray-700">
                       The training and hybrid seedlings have revolutionized our
-                      practices, leading to a 30% yield increase.
+                      practices, leading to a 70% yield increase.
                     </p>
                   </div>
                   <footer className="mt-6 text-sm text-gray-500">
